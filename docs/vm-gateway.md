@@ -1,4 +1,4 @@
-##Configuración
+## Configuración
 
 - **Nombre**: vm-gateway
 
