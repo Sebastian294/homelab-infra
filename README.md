@@ -13,34 +13,38 @@ Estrategias de backup y recuperación.
 
 Seguridad defensiva (Blue Teaming).
 
-Alcance del Proyecto
+### Alcance del Proyecto
 El laboratorio contempla el despliegue de una infraestructura virtualizada, la configuración de servicios esenciales de Linux y la implementación de procesos tanto manuales como automatizados, manteniendo siempre un enfoque práctico y debidamente documentado.
 
-Stack Tecnológico
+### Stack Tecnológico
 Sistema Operativo: Distribuciones Linux (Debian/RHEL).
 
-Virtualización: Proxmox VE o VirtualBox.
+###Virtualización
+Vmware workstation
 
-Servidor Web: Apache HTTP Server.
+### Servidor Web
+Apache HTTP Server.
 
-Seguridad: Configuración de Firewalls (UFW/IPTables), gestión de permisos, implementación de SSL/TLS.
+### Seguridad
+Configuración de Firewalls (UFW/IPTables), gestión de permisos, implementación de SSL/TLS.
 
-Automatización: Scripting en Bash.
+### Automatización
+Scripting en Bash.
 
-Arquitectura de Alto Nivel
+### Arquitectura de Alto Nivel
 La topología del laboratorio se organiza en los siguientes niveles:
 
-Host Físico: Hardware base destinado al laboratorio.
+**Host Físico:** Hardware base destinado al laboratorio.
 
-Hipervisor: Capa de virtualización para la gestión de recursos.
+**Hipervisor:** Capa de virtualización para la gestión de recursos.
 
-Máquinas Virtuales (Nodos):
+### Máquinas Virtuales (Nodos)
 
-Servidor Web (Activo).
+- Servidor Web (Activo).
 
-Nodo de Monitoreo (Fase de planificación).
+- Nodo de Monitoreo (Fase de planificación).
 
-Servidor de Backup (Fase de planificación).
+- Servidor de Backup (Fase de planificación).
 
-Documentación
+### Documentación
 Todo el registro técnico, configuraciones y guías paso a paso se integrarán de manera progresiva en este repositorio para asegurar la trazabilidad del proyecto.
