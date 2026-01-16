@@ -1,6 +1,3 @@
-Proyecto HomeLab: Infraestructura Linux
-Objetivo
-El propósito de este proyecto es diseñar e implementar un laboratorio de infraestructura basado en Linux que replique las condiciones de un entorno empresarial real. Se busca aplicar estándares profesionales de administración de sistemas, seguridad y documentación técnica.
 
 Este entorno servirá como plataforma de pruebas para las siguientes áreas:
 
