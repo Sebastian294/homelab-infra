@@ -92,6 +92,6 @@ Se emplea una máquina virtual con Debian 13. Se trata de una distribución esta
 ```
 
 
-## Estructura del repocitorio
+## Estructura del repositorio
 
 <img width="561" height="372" alt="image" src="https://github.com/user-attachments/assets/fad60b30-dc83-4ecb-84b9-f01e1ab92b2c" />
