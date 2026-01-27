@@ -1,4 +1,4 @@
-#  Desde nuestra VM, ejecutamos :
+#  Desde nuestra VM se ejecuta lo siguiente:
 
 ```bash
 $ docker exec -it lab-app_node_1-1 tail  /usr/local/tomcat/webapps/shared/log.txt
