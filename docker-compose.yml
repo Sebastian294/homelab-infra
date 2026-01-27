@@ -1,0 +1,29 @@
+services:
+  # Balanceador de Carga
+  lb:
+    image: haproxy:alpine
+    ports:
+      - "80:80"
+      - "8404:8404" # Panel de estadísticas
+    volumes:
+      - ./config/haproxy:/usr/local/etc/haproxy:ro
+    depends_on:
+      - app_node_1
+      - app_node_2
+
+  # Nodo de Aplicación 1
+  app_node_1:
+    image: tomcat:9.0-jdk11-temurin 
+    volumes:
+      - ./app/ROOT:/usr/local/tomcat/webapps/ROOT 
+      - /srv/shared_data:/usr/local/tomcat/webapps/shared
+    environment:
+      - JAVA_OPTS=-Xmx256m -Xms128m
+
+  app_node_2:
+    image: tomcat:9.0-jdk11-temurin 
+    volumes:
+      - ./app/ROOT:/usr/local/tomcat/webapps/ROOT 
+      - /srv/shared_data:/usr/local/tomcat/webapps/shared
+    environment:
+      - JAVA_OPTS=-Xmx256m -Xms128m
