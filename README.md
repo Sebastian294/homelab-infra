@@ -90,3 +90,8 @@ Se emplea una máquina virtual con Debian 13. Se trata de una distribución esta
     A2 -->|write/read log.txt| FS
 
 ```
+
+
+## Estructura del repocitorio
+
+<img width="561" height="372" alt="image" src="https://github.com/user-attachments/assets/fad60b30-dc83-4ecb-84b9-f01e1ab92b2c" />
