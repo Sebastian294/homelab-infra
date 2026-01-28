@@ -66,7 +66,7 @@ Se emplea una máquina virtual con Debian 13. Se trata de una distribución esta
     User[ Usuario / Cliente\ncurl · browser]
     
     subgraph Host[" Host Linux (Docker)"]
-        LB[⚖️ HAProxy\n:80 / :8404]
+        LB[ HAProxy\n:80 / :8404]
         
         subgraph Cluster[" App Cluster"]
             A1[ app_node_1\nTomcat 9\n:8080]
